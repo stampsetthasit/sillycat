@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://media.tenor.com/images/27492c89406a77784e0a552327b1473e/tenor.gif" type="gif/x-icon">
+    <title>Cat - Home</title>
+</head>
+
+<body>
+    <header class="topheader" id="myHeader">
+        <a class="brand" href="index.html">Cat</a>
+        <a class="menu" href="whatiscat.html">What is cat?</a>
+        <a class="menu" href="breeds.html">Breeds</a>
+        <a class="menu" href="product.html">Product</a>
+    </header>
+    <div class="content">
+        <div class="wallpaper">
+            <h1 class="text">This is a Cat.</h1>
+            <p class="text">The cat is a species of small carnivorous mammal.</p>
+            <p class="text">Meow~ Meow~ is voice of a cat.</p>
+        </div>
+        <div class="lifestageofcat">
+            <h1 class="text">Life stage of cat</h1>
+            <p>--------------</p>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="item">
+            <div class="content-kitten">
+                <h2>Kitten</h2>
+                <p>(Birth up to 1 year)</p>
+            </div>
+            <p style="font-size: 12px; color: rgb(85, 85, 85);">Kitten (Birth up to 1 year) - Kittens have a very high play drive. Now is the best time for gradual positive introductions to people and other pets. It is also the right time for your cat to become comfortable with nail trims, tooth and coat
+                brushing, their cat carrier, and transportation to the veterinary practice.</p>
+        </div>
+        <div class="item">
+            <div class="content-youngadult">
+                <h2>Young Adult</h2>
+                <p>(1 year – 6 years)</p>
+            </div>
+            <p style="font-size: 12px; color: rgb(85, 85, 85);">Young Adult (1 year - 6 years) - Inter-cat aggression may develop at this stage of life along with sexual maturity. Be sure to use appropriate play with your cat.</p>
+        </div>
+        <div class="item">
+            <div class="content-matureadult">
+                <h2>Mature Adult</h2>
+                <p>(7 – 10 years)</p>
+            </div>
+            <p style="font-size: 12px; color: rgb(85, 85, 85);">Mature Adult (7 – 10 years) - Play activity begins to decrease and your cat becomes more likely to gain weight. Many people assume their cat is young and healthy, but a lot can change in just one cat year which equals four human years. Your
+                cat will benefit from regular checkups to keep her/him healthy and prevent disease or illnesses.</p>
+        </div>
+        <div class="item">
+            <div class="content-senior">
+                <h2>Senior</h2>
+                <p>(over 10 years)</p>
+            </div>
+            <p style="font-size: 12px; color: rgb(85, 85, 85);">Senior (over 10 years) - The human equivalent at the beginning of this life stage is about 60 years. Senior cats may exhibit behavioral changes (e.g., vocalization, changes in litter box usage, not going up and down stairs as easy). Senior
+                cats should visit the veterinarian at a minimum of every six months since much could happen in a year and your veterinarian can catch things early on before they are more advanced or costly to treat.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <a class="menu" href="index.html">Cat © 3021</a>
+        <a class="menu" href="whatiscat.html">What is cat?</a>
+        <a class="menu" href="breeds.html">Breeds</a>
+        <a class="menu" href="product.html">Product</a>
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+                    /* Index */
+                    
+                    html,
+                    body {
+                        background-color: rgb(236, 235, 235);
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Roboto Mono', monospace;
+                    }
+                    
+                    .topheader {
+                        background-color: ghostwhite;
+                        padding: 10px 16px;
+                        color: #000000;
+                    }
+                    
+                    .menu {
+                        color: black;
+                        text-decoration: none;
+                        padding: 20px;
+                        display: inline-block;
+                    }
+                    
+                    .brand {
+                        font-size: 25px;
+                        font-weight: 600;
+                        color: black;
+                        text-decoration: none;
+                        padding: 28px;
+                        display: inline-block;
+                        margin-left: 35px;
+                        margin-right: 60%;
+                    }
+                    
+                    .wallpaper {
+                        background-image: url(https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+                        background-size: cover;
+                        background-position: center;
+                        height: 100vh;
+                        display: grid;
+                        align-content: center;
+                        justify-content: center;
+                        text-align: center;
+                        color: white;
+                    }
+                    
+                    .lifestageofcat {
+                        margin-top: 10%;
+                        text-align: center;
+                    }
+                    
+                    .footer {
+                        color: black;
+                        margin-top: 10%;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                    
+                    .grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        justify-items: stretch;
+                        align-items: stretch;
+                        column-gap: 50px;
+                        row-gap: 50px;
+                        margin-top: 50px;
+                        margin-left: 15%;
+                        margin-right: 15%;
+                    }
+                    
+                    .content-kitten {
+                        color: #000000;
+                        background-image: url(https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+                        font-weight: 600;
+                        text-align: center;
+                        box-sizing: border-box;
+                        background-position: center;
+                        background-size: cover;
+                        align-content: center;
+                        text-align: center;
+                        justify-content: center;
+                        height: 250px;
+                        display: grid;
+                        font-size: 20px;
+                        opacity: 0.75;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 30px;
+                    }
+                    
+                    .content-youngadult {
+                        color: #000000;
+                        background-image: url(https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1327&q=80);
+                        font-weight: 600;
+                        text-align: center;
+                        box-sizing: border-box;
+                        background-position: center;
+                        background-size: cover;
+                        align-content: center;
+                        text-align: center;
+                        justify-content: center;
+                        height: 250px;
+                        display: grid;
+                        font-size: 20px;
+                        opacity: 0.75;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 30px;
+                    }
+                    
+                    .content-matureadult {
+                        color: #000000;
+                        background-image: url(https://images.unsplash.com/photo-1513451713350-dee890297c4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+                        font-weight: 600;
+                        text-align: center;
+                        box-sizing: border-box;
+                        background-position: center;
+                        background-size: cover;
+                        align-content: center;
+                        text-align: center;
+                        justify-content: center;
+                        height: 250px;
+                        display: grid;
+                        font-size: 20px;
+                        opacity: 0.75;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 30px;
+                    }
+                    
+                    .content-senior {
+                        color: #000000;
+                        background-image: url(https://images.unsplash.com/photo-1606302773374-56a6055ffbda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+                        font-weight: 600;
+                        text-align: center;
+                        box-sizing: border-box;
+                        background-position: center;
+                        background-size: cover;
+                        align-content: center;
+                        text-align: center;
+                        justify-content: center;
+                        height: 250px;
+                        display: grid;
+                        font-size: 20px;
+                        opacity: 0.75;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 30px;
+                    }
+                    
+                    .sticky {
+                        position: fixed;
+                        top: 0;
+                        width: 100%
+                    }
+                    
+                    .sticky+.content {
+                        padding-top: 100px;
+                    }
+                    /* What is cat */
+                    
+                    .center {
+                        margin: 0 auto;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    
+                    .acat {
+                        background-image: url(https://media1.giphy.com/media/ACVoiOEjbA6nC/giphy.gif);
+                        background-size: cover;
+                        background-position: center;
+                        height: 70vh;
+                        display: grid;
+                        align-content: center;
+                        justify-content: center;
+                        text-align: center;
+                        color: white;
+                    }
+                    /* Breeds */
+                    
+                    .imgcenter {
+                        color: #000000;
+                        background-color: white;
+                        font-weight: 600;
+                        box-sizing: border-box;
+                        height: 300px;
+                        font-size: 20px;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 30px;
+                        overflow: hidden;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    .gridcen {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        justify-items: stretch;
+                        align-items: stretch;
+                        column-gap: 40px;
+                        row-gap: 40px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-top: 20px;
+                    }
+                    
+                    .gridcen img {
+                        width: 100%;
+                        align-items: stretch;
+                        justify-items: stretch;
+                    }
+                    
+                    .imgcenter p {
+                        font-size: 16px;
+                    }
+                    /* Product.html */
+                    .gridproduct {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        justify-items: stretch;
+                        align-items: stretch;
+                        column-gap: 40px;
+                        row-gap: 40px;
+                        margin-left: 30%;
+                        margin-right: 20%;
+                    }
+
+                    .imgpro {
+                        color: #000000;
+                        background-color: white;
+                        font-weight: 600;
+                        height: 280px;
+                        width: 200px;
+                        font-size: 20px;
+                        box-shadow: 3px 3px 10px black;
+                        border-radius: 00px;
+                        overflow: hidden;
+                        background-size: contain;
+                        
+                    }
