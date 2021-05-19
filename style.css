@@ -12,6 +12,7 @@
                         background-color: ghostwhite;
                         padding: 10px 16px;
                         color: #000000;
+                        z-index: 999;
                     }
                     
                     .menu {
